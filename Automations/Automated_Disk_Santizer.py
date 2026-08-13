@@ -20,7 +20,7 @@ import schedule
 ##########################################################
 
 def DirectoryScanner(DirectoryPath):
-    Border = "-"*40
+    Border = "--"*50
 
     timestamp = time.ctime()
     
@@ -88,7 +88,7 @@ def DirectoryScanner(DirectoryPath):
 ##########################################################
 
 def main():
-    Border = "-"*40
+    Border = "--"*50
    
     print(Border)
     print(" Marvellous Automation Script ")
